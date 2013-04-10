@@ -1,0 +1,7 @@
+(defun hi ()
+  (alert "hello, world"))
+
+(defun bar (arr)
+   (reduce #:+ arr))
+
+(defun () (alert "hello, world"))

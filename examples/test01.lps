@@ -1,0 +1,6 @@
+;; example from parenscript manual
+(lambda (x)
+  (case x
+    (1 (loop repeat 3 do (alert "foo")))
+    (:bar (alert "bar"))
+    (otherwise 4)))
