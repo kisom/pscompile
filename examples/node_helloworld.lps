@@ -4,9 +4,10 @@
 
 (ps:chain http (create-server
                 (lambda (request response)
-                   (ps:chain response (write-head 200
-                                      (ps:create "Content-Type"
-                                                  "text/plain")))
-                   (ps:chain response (end "Hello World"))))
-        (listen 8000))
+                  (ps:chain response
+                            (write-head 200
+                                        (ps:create "Content-Type"
+                                                   "text/plain")))
+                  (ps:chain response (end "Hello World"))))
+          (listen 8000))
 (ps:chain console (log "Server running at http://localhost:8000/"))
