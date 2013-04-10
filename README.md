@@ -24,6 +24,10 @@ pscompile [parenscript files]
 The files will be saved under the same base file name, with the extension ".js".
 For example, `test.lps` will be saved as `test.js`.
 
+## References
+
+0. [The Parenscript reference manual](http://common-lisp.net/project/parenscript/reference.html).
+
 ## License
 
 ```
