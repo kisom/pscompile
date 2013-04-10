@@ -2,4 +2,4 @@
 
 (defpackage #:pscompile
   (:use #:cl)
-  (:export #:sbcl-main))
+  (:export #:main))

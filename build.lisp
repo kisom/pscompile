@@ -6,4 +6,4 @@
 
 (ql:quickload :pscompile)
 (format t "[+] compiling to 'pscompile'...~%")
-(sb-ext:save-lisp-and-die "pscompile" :executable t :toplevel #'main)
+(sb-ext:save-lisp-and-die "pscompile" :executable t :toplevel #'pscompile:main)
