@@ -8,7 +8,7 @@
   #+:SBCL
   (progn
     (sbcl-main)
-    (sb-ext:exit :code 0))
+    (sb-ext:quit))
   (format t "[!] implementation not supported.~%"))
 
 (defun sbcl-main ()
